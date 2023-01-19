@@ -12,3 +12,7 @@
   - User-friendly interface
   ## Issues
   - Using the modulo operator may result in one of the numbers being NaN.
+  
+  > Note:
+  > This HTML project still has bugs, some of which may not be known.
+  > It is not likely to be updated, so bear that in mind.
