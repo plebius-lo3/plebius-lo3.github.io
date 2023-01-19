@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'Arimo Regular';
+    src: url(../media/fonts/Arimo-Regular.ttf);
+}
+
 html {
     font-size: 16px;
-    font-family: 'Arimo', 'Arial', sans-serif;
+    font-family: 'Arimo Regular','Arimo', 'Arial', serif;
 }
 
 div.ButtonGroup button {
@@ -13,7 +18,7 @@ div.ButtonGroup button {
     display: flexbox;
     text-align: center;
     align-items: center;
-    font-family: 'Arimo', 'Times New Roman', serif;
+    font-family: 'Arimo Regular','Arimo', 'Arial', serif;
     font-weight: bold;
     font-size: 24px;
 }

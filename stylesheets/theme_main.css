@@ -1,9 +1,14 @@
+@font-face {
+    font-family: 'BreeSerif';
+    src: url(../media/fonts/BreeSerif-Regular.ttf);
+}
+
 html {
     background-image: url("../media/background_tile_x16.png");
     width: 1280;
     height: 720;
     font-size: 16px;
-    font-family: 'Bree Serif', 'Times New Roman', serif;
+    font-family: 'BreeSerif', 'Bree Serif', 'Times New Roman', serif;
     
 }
 
@@ -11,7 +16,7 @@ html {
 /*Button E#lement*/
 button {
     font-size: 16px;
-    font-family: 'Bree Serif', 'Times New Roman', serif;
+    font-family: 'BreeSerif', 'Bree Serif', 'Times New Roman', serif;
     transition: all 0.5s ease-out;
 }
 button:hover {
@@ -23,7 +28,7 @@ select {
     background-color:#ff5353;
     border: solid 2.5px;
     border-radius: 6px;
-    font-family: 'Bree Serif', 'Times New Roman', serif;
+    font-family: 'BreeSerif', 'Bree Serif', 'Times New Roman', serif;
 }
 
 option {
