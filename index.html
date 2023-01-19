@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CSC 310 Project</title>
+        <link rel="stylesheet" type="text/css" href="stylesheets/theme_main.css" /> 
+    </head>
+    <body>
+        <div id="landing_section" class="Page"><!--Page Content-->
+            <div class="Header">
+                <header>
+                    <div class ="InfoGroup" title="Information about this page">
+                        <div class="InfoIcon">i</div>
+                        <button class="InfoButton" id="info_show_button">Information</button>
+                        <button class="InfoButton" id="form_show_button">Biodata Form</button>
+                    </div>
+                </header>
+            </div>
+            <div class="PageInfo">
+                <div>
+                    <h1 id="page_title">Calculator</h1>
+                </div>
+
+                <div id="info_dialog" class="info_dialog" state="hidden"> <!--Information Dialog-->
+                    <div>
+                        <button id="info_close_button" class="close_button">Close</button>
+                    </div>
+                    <div>
+                        <p state="Hidden">
+                            <div>
+                                <h2>
+                                    CSC 310 Continuous Assessment Project<br />
+                                    Group 11
+                                </h2>
+                            </div>
+                            <p>
+                                <table>
+                                    <tr>
+                                        <td>Ukandu Peter Chiebuka</td>
+                                        <td>20CH028192</td>
+                                        <td>Group Member</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Oyinbo Oluwaseyi Annie</td>
+                                        <td>20CH028186</td>
+                                        <td>Group Member</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ajayi Adaobi Oluwatoyosi</td>
+                                        <td>20CG028041</td>
+                                        <td>Group Member</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ekekwe Tanyalouise Kelechi, Chisom</td>
+                                        <td>20CG028069</td>
+                                        <td>Group Member</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Oluwasuyi Oluwademilade Joyce</td>
+                                        <td>20CG028072</td>
+                                        <td>Group Member</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Atayero Glory Oluwadamilola</td>
+                                        <td>20CG028127</td>
+                                        <td>Group Member</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Adewuyi Rereoluwa Aanuoluwa Lily</td>
+                                        <td>20CG028050</td>
+                                        <td>Group Member</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ukandu Peter Chiebuka</td>
+                                        <td>20CG028037</td>
+                                        <td>Group Member</td>
+                                    </tr>
+                                </table>
+                            </p>
+                        </p>
+                    </div>
+                </div>
+
+                <div id="form_dialog" class="info_dialog" state="hidden"> <!--Form Dialog-->
+                    <div>
+                        <button id="form_close_button" class="close_button">Close</button>
+                    </div>
+                    <h2>Biodata Form</h2>
+                    <p>
+                        <div>
+                            <label>Name</label>
+                            <input type="text" />
+                        </div>
+                        <div>
+                            <label>Matriculation Number</label>
+                            <input type="text" />
+                        </div>
+                        <div>
+                            <select name="user_status">
+                                <option>Group Member</option>
+                                <option>Visitor</option>
+                            </select>
+                        </div>
+                    </p>
+                </div>
+
+                <div id="link_button_group">
+                    <div >
+                        <img id="pointer_right_up" class="IndicatorSprite" src="media/icons/hand_flipped.png"/>
+                        <img id="pointer_left_up" class="IndicatorSprite" src="media/icons/hand.png"/>
+                    </div>
+                    <!--Link to the calculator page-->
+                    <a href="pages/calculator.html"><button id="btn_go_to_calc" class="TransitionButton">Go</button></a>
+                </div>
+                <div id="profile_feed">
+
+                </div>
+            </div>
+        </div>
+        <!--The Javascript file controlling the pages behaviour-->
+        <script type="text/javascript" src="scripts/page.js"></script>
+    </body>
+</html>

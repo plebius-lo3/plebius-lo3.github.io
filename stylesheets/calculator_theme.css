@@ -1,0 +1,139 @@
+html {
+    font-size: 16px;
+    font-family: 'Arimo', 'Arial', sans-serif;
+}
+
+div.ButtonGroup button {
+    width : 2.67em;
+    height : 2.67em;
+    border : solid black 4px;
+    border-radius: 16px;
+    margin: 2.5px;
+    -webkit-text-stroke: 0.0625rem;
+    display: flexbox;
+    text-align: center;
+    align-items: center;
+    font-family: 'Arimo', 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+div.CalculatorRoot {
+    width: 300px;
+    height: 526px;
+    margin: auto;
+}
+
+div.OperandDisplay {
+    background-color: white;
+    border: solid #F8D9D9 4px;
+    border-radius: 8px;
+    display: grid;
+    min-height: 32px;
+    padding-left: 0.3125rem;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin: auto;
+    margin-top: 0.625em;
+    margin-bottom: 0.625em;
+}
+
+div#operator_indicator {
+    background-color: #FFCDCD;
+    display:grid;
+    position:relative;
+    text-align: center;
+    align-items: center;
+    top: 5.5em;
+    left: 1.3em;
+    border-radius: 8px;
+    min-width: 32px;
+    min-height: 32px;
+    width: 2rem;
+    height: 2rem;
+}
+
+div#operator_indicator label {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    -webkit-text-stroke: 0.03125rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+div[status=inactive]#operator_indicator {
+    background-color: white;
+}
+
+div[status=active]#operator_indicator {
+    background-color: #FFCDCD;
+}
+
+div[status=active]#operator_indicator:hover {
+    background-color: #fdb2b2;
+}
+
+
+button.NumberButtons {
+    background-color: #FFEBEB;
+
+}
+
+button.NumberButtons:hover {
+    background-color: white;
+
+}
+
+button.NumberButtons:active {
+    background-color: #FFCDCD;
+
+}
+
+
+button.OperatorButtons {
+    background-color: #FA9B59;
+}
+
+button.OperatorButtons:hover {
+    background-color: #FFCE8D;
+
+}
+
+button.OperatorButtons:active {
+    background-color: #E8683E;
+
+}
+
+button#num_button_zero {
+    width: 5.7em;
+}
+
+button#op_button_equals {
+    height: 5.7em;
+}
+
+button#op_button_cancel {
+    background-color: #FA5E59;
+}
+
+button#op_button_cancel:hover {
+    background-color: #FFA4A4;
+
+}
+
+button#op_button_cancel:active {
+    background-color: #C33838;
+
+}
+
+input[type=text].OperandDisplay {
+    background-color: transparent;
+    border: 0;
+    color: #564343;
+    width: 90%;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: right;
+    margin: 0.3125rem;
+
+}

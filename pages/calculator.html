@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" type="text/css" href="../stylesheets/calculator_theme.css" />
+        <link rel="stylesheet" type="text/css" href="../stylesheets/theme_main.css" />
+    </head>
+    <body>
+        <div id="calculator_section" class="Page">
+            <header>
+                <a href="../index.html"><button id="btn_go_to_home" class="TransitionButton">Go Back</button></a>
+            </header>
+            <div class="CalculatorRoot">
+                <div class="CalculatorDisplay">
+                    <div id="operator_indicator" status="inactive">
+                        <label id="op_indicator_text">C</label>
+                    </div>
+                    <div class="OperandDisplay">
+                        <input type="text" id="op_display_one" class="OperandDisplay" value="" disabled/>
+                        <input type="text" id="op_display_two" class="OperandDisplay" value="" disabled/>
+                    </div>
+                    <div class="OperandDisplay">
+                        <input type="text" id="op_result" class="OperandDisplay" value="" disabled></label>
+                    </div>
+                </div>
+                <div class="ButtonGroup">
+                    <div class="Calculator">
+                        <!-- 
+                            The buttons placed in the table tag to emulate the layout of basic commercial calculators.
+                        -->
+                        <div class="ButtonGroup">
+                            <table>
+                                <tr>
+                                    <div>
+                                        <td><button id="op_button_cancel" class="OperatorButtons">C</button></td>
+                                        <td><button id="op_button_modulo" class="OperatorButtons">%</button></td>
+                                        <td><button id="op_button_divide" class="OperatorButtons">÷</button></td>
+                                        <td><button id="op_button_multiply" class="OperatorButtons">×</button></td>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div>
+                                        <td><button id="num_button_seven" class="NumberButtons">7</button></td>
+                                        <td><button id="num_button_eight" class="NumberButtons">8</button></td>
+                                        <td><button id="num_button_nine" class="NumberButtons">9</button></td>
+                                    </div>
+                                    <div>
+                                        <td><button id="op_button_minus" class="OperatorButtons">-</button></td>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="NumberButtons">
+                                        <td><button id="num_button_four" class="NumberButtons">4</button></td>
+                                        <td><button id="num_button_five" class="NumberButtons">5</button></td>
+                                        <td><button id="num_button_six" class="NumberButtons">6</button></td>
+                                    </div>
+                                    <div>
+                                        <td><button id="op_button_plus" class="OperatorButtons">+</button></td>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="NumberButtons">
+                                        <td><button id="num_button_one" class="NumberButtons">1</button></td>
+                                        <td><button id="num_button_two" class="NumberButtons">2</button></td>
+                                        <td><button id="num_button_three" class="NumberButtons">3</button></td>
+                                    </div>
+                                    <div>
+                                        <td rowspan="2"><button id="op_button_equals" class="OperatorButtons">=</button></td>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <div class="NumberButtons">
+                                        <td colspan="2"><button id="num_button_zero" class="NumberButtons">0</button></td>
+                                        <td colspan="1"><button id="num_button_dec_point" class="NumberButtons">.</button></td>
+                                        <td></td>
+                                    </div>
+        
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="../scripts/calculator.js"></script>
+    </body>
+</html>
