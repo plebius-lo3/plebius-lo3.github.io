@@ -1,3 +1,4 @@
+/* Specifies the default font to use fot the `font-family` attributes */
 @font-face {
     font-family: 'BreeSerif';
     src: url(../media/fonts/BreeSerif-Regular.ttf);
@@ -13,7 +14,7 @@ html {
 }
 
 
-/*Button E#lement*/
+/* The styles for the button Element */
 button {
     font-size: 16px;
     font-family: 'BreeSerif', 'Bree Serif', 'Times New Roman', serif;
@@ -23,7 +24,7 @@ button:hover {
     transition: none;
 }
 
-/*Dropdown Element*/
+/* The styles for the dropdown element */
 select {
     background-color:#ff5353;
     border: solid 2.5px;
@@ -87,7 +88,9 @@ h1#page_title {
     font-weight: normal; 
 }
 
-
+/* The styles for the buttons with the class `InfoButton`
+   and its roor HTML element
+*/
 div.InfoGroup {  
     float: right;
     display:flex;
@@ -152,7 +155,7 @@ button.TransitionButton:active {
     background-color: yellow;
 }
 
-
+/* The sytleing for the two 'hand' icons in the index HTML file */
 img.IndicatorSprite {
     position:relative;
     margin-right: 8rem;
@@ -169,6 +172,9 @@ img#pointer_right_up {
     transform: rotate(30deg);
 }
 
+/* A CSS tag specifying the styles
+   for a custom HTML tag attribute, `state` 
+*/
 div[state=hidden].info_dialog {
     height: 0;
     width: 0;
@@ -177,7 +183,6 @@ div[state=hidden].info_dialog {
     padding: 0;
     opacity: 0;
     overflow: hidden;
-    /*viewport-fit:contain*/
 
 }
 

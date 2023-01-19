@@ -28,6 +28,7 @@ div.CalculatorRoot {
     margin: auto;
 }
 
+/* The styles for the input and output displays */
 div.OperandDisplay {
     background-color: white;
     border: solid #F8D9D9 4px;
@@ -78,7 +79,7 @@ div[status=active]#operator_indicator:hover {
     background-color: #fdb2b2;
 }
 
-
+/* The styles for the number buttons */
 button.NumberButtons {
     background-color: #FFEBEB;
 
@@ -94,7 +95,7 @@ button.NumberButtons:active {
 
 }
 
-
+/* The styles for the operator buttons */
 button.OperatorButtons {
     background-color: #FA9B59;
 }
@@ -109,6 +110,10 @@ button.OperatorButtons:active {
 
 }
 
+/* The styles for special calculator buttons,
+   that is, buttons with different functions
+   or a different layout to the rest of the buttons
+*/
 button#num_button_zero {
     width: 5.7em;
 }

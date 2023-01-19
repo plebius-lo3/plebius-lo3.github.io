@@ -40,7 +40,9 @@ let btn_op_mod = document.getElementById("op_button_modulo");
 let btn_op_solve = document.getElementById("op_button_equals");
 let btn_op_clear = document.getElementById("op_button_cancel");
 
-
+// Groups the numbe buttons into an array.
+// This is to make it easy for related elements to recieve the same function
+// by looping throught the array
 let number_button_group = [
     btn_num_0,
     btn_num_1,
