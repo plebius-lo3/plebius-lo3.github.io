@@ -119,6 +119,7 @@ function reset_all() {
     operand_disp_2.setAttribute("value", "0");
     result_display.setAttribute("value", "");
     current_display = operand_disp_1;
+    current_operator = []
 
 }
 
